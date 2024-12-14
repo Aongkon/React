@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+*{
+    padding: 0;
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.parentCard{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.textH1{
+    color: aqua;
+    background: #850080;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card{
+    background: #04d7f3;
+    color: black;
+    padding: 20px;
+    box-shadow: 5px 3px 10px black; 
+    border-radius: 15px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.someStyle{
+    line-height: 24px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.plus_button{
+    padding: 10px 20px;
+    margin: 40px 60px; 
+    background: #000;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.parent{
+    background: #0aac1d;
+}
+
+#main_div{
+    margin: 70px 200px;
+}
+
+#main_div h1{
+    margin-bottom: 40px;
+}
+
+#form_id div{
+    margin-bottom: 20px;
 }
